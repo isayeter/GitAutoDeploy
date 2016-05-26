@@ -3,7 +3,7 @@ This python script is not coded by me, I couldn't find the original one, so I'm 
 **In this version, if you write "donotpull" to commit message, auto deploy will not fetch the source.**
 
 
-# INSTALLATION
+## INSTALLATION
 
 Open GitAutoDeploy.conf.json and fill all the necessary fields.
 
@@ -17,7 +17,7 @@ key | value
 [PROJECT_FOLDER] | "/var/www/html/bla.com/"
 [AFTER_COMMANDS] | Like: "cd /var/www/html/bla.com/ && ./vendor/bin/db_migrate migrate"
 
-# START IT
+## START IT
 
 In daemon mode:
 
@@ -32,7 +32,7 @@ In foreground: (to see logs)
 ```
 
 
-# ADD TO STARTUP
+## ADD TO STARTUP
 
 ```
 crontab -e
@@ -45,7 +45,7 @@ Write this:
 ```
 
 
-# ADD WEBHOOK IN GITLAB PROJECT SETTING'S AREA
+## ADD WEBHOOK IN GITLAB PROJECT SETTING'S AREA
 
 
 ![alt text](http://i.imgur.com/bfDf72C.png "Webhook in GitLab")
