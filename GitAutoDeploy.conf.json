@@ -1,0 +1,18 @@
+{
+	"pidfilepath": "/var/run/gitautodeploy.pid",
+	"host": "[LOCAL_IP]",
+	"port": [LOCAL_PORT_TO_LISTEN],
+	"global_deploy": [
+		"echo Starting deploy!",
+		"echo Ending deploy!"
+	],
+	"repositories":
+	[
+		{
+			"url": "[GIT_REPO_URL]",
+			"branch": "[BRANCH_NAME_TO_PULL]",
+			"path": "[PROJECT_FOLDER]",
+			"deploy": "[COMMANDS_TO_BE_EXECUTED_AFTER_DEPLOYMENT]"
+	    }
+    ]
+}
