@@ -43,3 +43,11 @@ Write this:
 ```
 @reboot /usr/bin/python /blabla/GitAutoDeploy.py --config /blabla/GitAutoDeploy.conf.json --daemon-mode --quiet
 ```
+
+
+# ADD WEBHOOK IN GITLAB PROJECT SETTING'S AREA
+
+
+![alt text](http://i.imgur.com/bfDf72C.png "Webhook in GitLab")
+
+
