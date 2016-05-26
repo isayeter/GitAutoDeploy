@@ -12,7 +12,7 @@
 			"url": "[GIT_REPO_URL]",
 			"branch": "[BRANCH_NAME_TO_PULL]",
 			"path": "[PROJECT_FOLDER]",
-			"deploy": "[COMMANDS_TO_BE_EXECUTED_AFTER_DEPLOYMENT]"
+			"deploy": "[AFTER_COMMANDS]"
 	    }
     ]
 }
