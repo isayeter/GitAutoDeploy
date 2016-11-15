@@ -14,6 +14,7 @@ key | value
 [LOCAL_PORT_TO_LISTEN] | 3434 (You will write ip and port address to Webhook in Gitlab etc.)
 [GIT_REPO_URL] | http://blabla.com/bla.git
 [BRANCH_NAME_TO_PULL] | Like: "development" , "master"
+[REMOTE_NAME] | Like: "development" , "master"
 [PROJECT_FOLDER] | "/var/www/html/bla.com/"
 [AFTER_COMMANDS] | Like: "cd /var/www/html/bla.com/ && ./vendor/bin/db_migrate migrate"
 
