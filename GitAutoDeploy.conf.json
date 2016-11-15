@@ -11,6 +11,7 @@
 		{
 			"url": "[GIT_REPO_URL]",
 			"branch": "[BRANCH_NAME_TO_PULL]",
+			"remote": "[REMOTE_NAME]",
 			"path": "[PROJECT_FOLDER]",
 			"deploy": "[AFTER_COMMANDS]"
 	    }
