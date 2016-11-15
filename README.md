@@ -51,3 +51,8 @@ Write this:
 ![alt text](http://i.imgur.com/bfDf72C.png "Webhook in GitLab")
 
 
+
+go to your folder on the server
+git init
+git remote add origin .
+git pull master master
