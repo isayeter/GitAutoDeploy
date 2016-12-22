@@ -54,6 +54,8 @@ Write this:
 
 
 go to your folder on the server
+
 git init
-git remote add origin .
-git pull master master
+
+git remote add origin git@git.blabla.com:bla/bla.git
+
